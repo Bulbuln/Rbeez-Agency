@@ -1,0 +1,54 @@
+{
+    
+    "service" : 
+    [
+        {
+            "id": 1,
+            "img": "image/Department.jpg",
+            "title": "Certified Translation Department For All Lang",
+            "alt": "DEPARTAMENT"
+
+        },
+        {
+            "id": 2,
+            "img": "image/medical.jpg",
+            "title": "Medical Translation",
+            "alt": "MEDICAL"
+
+        },
+        {
+            "id": 3,
+            "img": "image/letter.jpg",
+            "title": "Literary Translation",
+            "alt": "LITARY"
+
+        },
+        {
+            "id": 4,
+            "img": "image/legal.jpg",
+            "title": "Legal Translation",
+            "alt": "LEGAL"
+
+        },
+        {
+            "id": 5,
+            "img": "image/flags.jpg",
+            "title": "General Translation Into All Languages",
+            "alt": "GENERAL"
+
+        },
+        {
+            "id": 6,
+            "img": "image/project.jpg",
+            "title": "Projects Translation",
+            "alt": "PROJECT"
+
+        }
+    ]
+
+
+
+
+
+
+}

@@ -1,0 +1,160 @@
+.navbar {
+    padding: 20px 0;
+    overflow: hidden;
+    background: #fff;
+    position: static;
+    border-bottom: 1px solid #000
+}
+
+.navbar .logo {
+    width: 50%;
+    float: left;
+    align-self: flex-start;
+}
+
+.navbar .logo .logo-text{
+    font-size: 30px;
+    font-weight: bold
+}
+
+.navbar input , .navbar label {
+    position: absolute;
+    top: 13px;
+    right: 25px;
+}
+
+.navbar input {
+    display: none
+}
+
+.navbar label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navbar input:checked ~ .ul-list {
+    display: block;
+    
+}
+
+.contacts {
+    align-self: flex-end;
+    position: absolute;
+    top:5px
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.contacts a:hover {
+    font-size: 20px;
+    color:#0275d8;
+}
+
+
+
+.navbar .ul-list {
+    width: 50%;
+    float: right;
+    list-style: none;
+    align-self: flex-end;
+    z-index: 1;
+    transition: all 1s ;
+}
+
+.list-item {
+    display: inline-block;
+    
+}
+
+.list-item a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.list-item a:hover {
+    color: #0275d8;
+    
+}
+
+.bars{
+    display: none;
+}
+
+
+
+@media (min-width : 992px) {
+    .navbar label {
+        display: none
+    }
+}
+
+@media (max-width : 991px) {
+    .navbar .logo {
+        width: 100%;
+        float: none;
+
+    }
+    
+    .bars{
+        display: block;
+        font-size: 50px;
+        z-index: 10001;
+        color: #04cab9; 
+        float: right;
+    }
+
+    .navbar .ul-list {
+
+        position: absolute;
+        right: 0;
+        display: none;
+
+        
+        overflow: hidden;
+        top: 108px;
+        border-radius: 10px;
+        
+        
+
+    }
+
+    .activate {
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        background-color: #454b70;
+        color: white;
+        overflow: hidden;
+        top: 108px;
+        border-radius: 10px;
+        width: 40%;
+        list-style: none;
+        align-self: flex-end;
+        z-index: 1;
+        opacity: .9;
+        
+    }
+    .list-item {
+        display: block;
+        text-align: center;
+        
+    }
+    .list-item a {
+       
+        color: white;
+        font-size: 24px;
+    }
+        
+    }
+    
+

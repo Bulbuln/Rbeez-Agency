@@ -1,0 +1,64 @@
+.about {
+    text-align: center;
+}
+
+.company-name {
+    color: #666;
+    position: relative;
+    left: -47px;
+    bottom: 10px;
+    font-size: 24px;
+    
+    
+}
+
+.about-box {
+    display: flex;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.about-box p {
+    text-align: left;
+    color: #707070;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 50px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    
+    
+
+}
+
+
+.about-img {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+@media (max-width : 991px) {
+    .about-box {
+        display: flex;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+
+    .about-img {
+        width: 250px;
+        height: 300px;
+        border-radius: 10px;
+        margin-right: 50px;
+    }
+
+
+
+}
